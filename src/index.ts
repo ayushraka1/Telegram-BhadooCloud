@@ -39,7 +39,7 @@ setEventCallback(eventRegex.commandsRegex.start, eventRegex.commandsRegexNoName.
     msgTools.sendMessage(bot, msg, 'Bot is not usable outside @RakaTorrent group', -1);
   } else {
     msgTools.sendMessage(bot, msg,
-                         'Welcome to @RakaTorrent Group.',
+                         'Welcome to @BhadooCloud Group.\n\nVisit https://telegra.ph/Torrent-Drive-Commands-11-05 for updates in Group.',
                          -1);
   }
 });
