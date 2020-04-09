@@ -7,6 +7,7 @@ export function archive(srcPath: string, destName: string, callback: (err: strin
   var targetDirName = `${srcPath.substring(srcPath.lastIndexOf('/') + 1)}`;
   var size = 0;
   writeStream.on('close', () => callback(null, size));
+  writeStream.on('error', (err: Error) => callback(err.message, size));
 
   var stream = tar.c(
     {
