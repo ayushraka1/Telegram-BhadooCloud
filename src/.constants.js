@@ -1,15 +1,15 @@
 module.exports = Object.freeze({
-  TOKEN: '1244411545:AAFyTRM-04cz5S2jVDbSZBv5tqYCKUsMq0E', //required
+  TOKEN: '1255441964:AAGCzrY58iv0-Ui461g1zHIzr_Mq8E--pBQ', //required
   ARIA_SECRET: 'bhadoo', //change as per needs.
   ARIA_DOWNLOAD_LOCATION: '/app/downloads)', //-leave as it is
-  INDEX_DOMAIN: 'https://rakacloud.workers.dev/RakaTorrent1', // replace with your index domain. use https://github.com/ParveenBhadooOfficial/go-drive
+  INDEX_DOMAIN: 'https://rakatorrent.raka.workers.dev/RakaTorrent/', // replace with your index domain. use https://github.com/ParveenBhadooOfficial/go-drive
   ARIA_DOWNLOAD_LOCATION_ROOT: '/', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION -leave as it is
   ARIA_FILTERED_DOMAINS: [], // Prevent downloading from URLs containing these substrings -leave as it is
   ARIA_FILTERED_FILENAMES: [], // Files/top level directories with these substrings in the filename won't be downloaded -leave as it is
   ARIA_PORT: 8210, // Port for aria2c RPC server, if you change this here, make sure to update aria.sh as well -leave as it is
-  GDRIVE_PARENT_DIR_ID:  '1y2Tjf-hljtz7fjGehTBBu-5toQYVokUr', // for directorty eg. https://drive.google.com/drive/folders/1p7pHhSh2yboWePmo53DnVr3xkAYiojP9 use 1p7pHhSh2yboWePmo53DnVr3xkAYiojP9
-  SUDO_USERS: [876435153],	// Telegram user IDs. These users can use the bot in any chat. required, get it using https://t.me/YourTGid_Bot
-  AUTHORIZED_CHATS: [-1001349463911],	// Telegram chat IDs. Anyone in these chats can use the bot. Add https://t.me/YourTGid_Bot to Group and click /id
+  GDRIVE_PARENT_DIR_ID:  '119jhKFCvNZ2YM7EmLvtDj1lvSGm9Iz-6', // for directorty eg. https://drive.google.com/drive/folders/1p7pHhSh2yboWePmo53DnVr3xkAYiojP9 use 1p7pHhSh2yboWePmo53DnVr3xkAYiojP9
+  SUDO_USERS: [1242372366],	// Telegram user IDs. These users can use the bot in any chat. required, get it using https://t.me/YourTGid_Bot
+  AUTHORIZED_CHATS: [-1001252972898],	// Telegram chat IDs. Anyone in these chats can use the bot. Add https://t.me/YourTGid_Bot to Group and click /id
   STATUS_UPDATE_INTERVAL_MS: 12000, // A smaller number will update faster, but might cause rate limiting -leave as it is
   DRIVE_FILE_PRIVATE: {
     ENABLED: false,
@@ -23,7 +23,7 @@ module.exports = Object.freeze({
   },
     COMMANDS_USE_BOT_NAME: {
       ENABLED: true,  // If true, all commands except '/list' has to have the bot username after the command.
-      NAME: "@RakaTorrent_bot" //Enter your Bot Username here if above is set to true.
+      NAME: "@Rakatorrent1_bot" //Enter your Bot Username here if above is set to true.
     }
 });
 
