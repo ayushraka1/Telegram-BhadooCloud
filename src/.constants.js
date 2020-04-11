@@ -1,5 +1,5 @@
 module.exports = Object.freeze({
-  TOKEN: '1295336457:AAG-gFl1krN6MjdxpLYiV1I1HXjA59Njuro', //required
+  TOKEN: '1035193882:AAHQeqQ2J9q9xRuxKHwxXh5RJtZD7H-_q8c', //required
   ARIA_SECRET: 'bhadoo', //change as per needs.
   ARIA_DOWNLOAD_LOCATION: '/app/downloads)', //-leave as it is
   INDEX_DOMAIN: 'https://rakatorrent.raka.workers.dev/RakaTorrent/', // replace with your index domain. use https://github.com/ParveenBhadooOfficial/go-drive
@@ -23,7 +23,7 @@ module.exports = Object.freeze({
   },
     COMMANDS_USE_BOT_NAME: {
       ENABLED: true,  // If true, all commands except '/list' has to have the bot username after the command.
-      NAME: "@Rakatorrent6_bot" //Enter your Bot Username here if above is set to true.
+      NAME: "@Rakatorrent7_bot" //Enter your Bot Username here if above is set to true.
     }
 });
 
