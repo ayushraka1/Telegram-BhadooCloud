@@ -1,13 +1,13 @@
 module.exports = Object.freeze({
-  TOKEN: '1243733155:AAFa1tK3XStF9o_91bNBlWzetJO5gIcNfAA', //required
+  TOKEN: '1032535059:AAFpCTjppCkxLYg6sRhle82IRkhMUascdig', //required
   ARIA_SECRET: 'bhadoo', //change as per needs.
   ARIA_DOWNLOAD_LOCATION: '/app/downloads)', //-leave as it is
-  INDEX_DOMAIN: 'https://gautam.gautamcloud.workers.dev/Gautam/', // replace with your index domain. use https://github.com/ParveenBhadooOfficial/go-drive
+  INDEX_DOMAIN: 'https://rakauploader.gautamcloud.workers.dev/Rakauploader/?rootId=0ADbVohZ3aqTNUk9PVA', // replace with your index domain. use https://github.com/ParveenBhadooOfficial/go-drive
   ARIA_DOWNLOAD_LOCATION_ROOT: '/', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION -leave as it is
   ARIA_FILTERED_DOMAINS: [], // Prevent downloading from URLs containing these substrings -leave as it is
   ARIA_FILTERED_FILENAMES: [], // Files/top level directories with these substrings in the filename won't be downloaded -leave as it is
   ARIA_PORT: 8210, // Port for aria2c RPC server, if you change this here, make sure to update aria.sh as well -leave as it is
-  GDRIVE_PARENT_DIR_ID:  '1KVJypU38tjoaj7POHbra7VxyFk-0b2S_', // for directorty eg. https://drive.google.com/drive/folders/1p7pHhSh2yboWePmo53DnVr3xkAYiojP9 use 1p7pHhSh2yboWePmo53DnVr3xkAYiojP9
+  GDRIVE_PARENT_DIR_ID:  '15T8JtZmuvq6ok1gaAF_qjuQDPTSTEdNR', // for directorty eg. https://drive.google.com/drive/folders/1p7pHhSh2yboWePmo53DnVr3xkAYiojP9 use 1p7pHhSh2yboWePmo53DnVr3xkAYiojP9
   SUDO_USERS: [1223894267],	// Telegram user IDs. These users can use the bot in any chat. required, get it using https://t.me/YourTGid_Bot
   AUTHORIZED_CHATS: [-1001200315499],	// Telegram chat IDs. Anyone in these chats can use the bot. Add https://t.me/YourTGid_Bot to Group and click /id
   STATUS_UPDATE_INTERVAL_MS: 12000, // A smaller number will update faster, but might cause rate limiting -leave as it is
@@ -23,7 +23,7 @@ module.exports = Object.freeze({
   },
     COMMANDS_USE_BOT_NAME: {
       ENABLED: true,  // If true, all commands except '/list' has to have the bot username after the command.
-      NAME: "@Gautamclouduploader_bot" //Enter your Bot Username here if above is set to true.
+      NAME: "@Rakaclouduploader_bot" //Enter your Bot Username here if above is set to true.
     }
 });
 
